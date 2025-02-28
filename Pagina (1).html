@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jabones Burbujas del Bosque Mágico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://source.unsplash.com/1600x900/?forest,magic') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 800px;
+        }
+        h1 {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-size: 3em;
+            font-weight: bold;
+            color: #2e8b57;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+        .product img {
+            width: 120px;
+            border-radius: 10px;
+            animation: float 2s infinite alternate;
+        }
+        .product-info {
+            flex: 1;
+            padding-left: 20px;
+        }
+        @keyframes float {
+            from {
+                transform: translateY(0px);
+            }
+            to {
+                transform: translateY(-10px);
+            }
+        }
+        p {
+            color: #555;
+        }
+        .boton {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #2e8b57;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jabones Burbujas del Bosque Mágico</h1>
+        <p><strong style="font-size: 1.5em; color: #2e8b57;">Misión</strong></p>
+        <p>Crear momentos mágicos de cuidado y bienestar para los más pequeños, transformando la hora del baño en una experiencia llena de diversión, ternura y calidad.</p>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Jabón Caracol">
+            <div class="product-info">
+                <p><strong>Jabón Caracol - $17</strong></p>
+                <p>Con su relajante aroma a lavanda y su suave textura, el Jabón Caracol hidrata y protege la piel de los pequeños, convirtiendo cada baño en un momento de calma y bienestar.</p>
+            </div>
+        </div>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Jabón Rana">
+            <div class="product-info">
+                <p><strong>Jabón Rana - $17</strong></p>
+                <p>Refrescante y energizante, el Jabón Rana con extracto de menta y eucalipto despierta los sentidos y deja la piel limpia y revitalizada.</p>
+            </div>
+        </div>
+        
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Jabón Mariposa">
+            <div class="product-info">
+                <p><strong>Jabón Mariposa - $17</strong></p>
+                <p>Con su dulce fragancia floral y espuma cremosa, el Jabón Mariposa nutre la piel con ingredientes naturales, dejando una sensación de suavidad y frescura.</p>
+            </div>
+        </div>
+        
+        <p><strong>Pack de 3 jabones - $65</strong></p>
+        <p>Disfruta de la magia del bosque con este set especial que combina frescura, suavidad y relajación en cada baño.</p>
+        <a href="#" class="boton">Comprar Ahora</a>
+    </div>
+</body>
+</html>
